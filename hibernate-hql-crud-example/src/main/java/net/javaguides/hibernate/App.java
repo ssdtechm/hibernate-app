@@ -18,15 +18,18 @@ public class App {
 		
 		// update student
 		Student student2 = new Student("Ram", "Fadatare", "rameshfadatare@javaguides.com");
-		studentDao.updateStudent(student1);
+		studentDao.updateStudent(student2);
+		
+		Student student3 = new Student("Ram", "Fadatare", "rameshfadatare@javaguides.com");
+		studentDao.updateStudent(student3);
 		
 		// get students
 		List<Student> students = studentDao.getStudents();
 		students.forEach(s -> System.out.println(s.getFirstName()));
 		
 		// get single student
-		Student student3 = studentDao.getStudent(1);
-		System.out.println(student3.getFirstName());
+		Student student4 = studentDao.getStudent(1);
+		System.out.println(student4.getFirstName());
 		
 		// delete student
 		studentDao.deleteStudent(1);
