@@ -17,6 +17,9 @@ public class App {
 		Student student1 = new Student("Ram", "Fadatare", "rameshfadatare@javaguides.com");
 		studentDao.updateStudent(student1);
 		
+		Student student3 = new Student("Ram", "Fadatare", "rameshfadatare@javaguides.com");
+		studentDao.updateStudent(student1);
+		
 		// get students
 		List<Student> students = studentDao.getStudents();
 		students.forEach(s -> System.out.println(s.getFirstName()));
