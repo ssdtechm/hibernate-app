@@ -11,6 +11,11 @@ public class App {
 		Student student = new Student("Ramesh", "Fadatare", "rameshfadatare@javaguides.com");
 		studentDao.saveStudent(student);
 		
+		
+		
+		Student rajaKing = new Student("rajaKing", "Raja", "rameshfadatare@javaguides.com");
+		studentDao.saveStudent(rajaKing);
+		
 		studentDao.insertStudent();
 		
 		// update student
