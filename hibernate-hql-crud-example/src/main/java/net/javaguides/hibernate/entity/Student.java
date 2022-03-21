@@ -16,8 +16,8 @@ public class Student {
 	@Column(name="id")
 	private int id;
 	
-	@Column(name="first_name")
-	private String firstName;
+	@Column(name="student_name")
+	private String studentName;
 	
 	@Column(name="last_name")
 	private String lastName;
@@ -30,7 +30,7 @@ public class Student {
 	}
 
 	public Student(String firstName, String lastName, String email) {
-		this.firstName = firstName;
+		this.firstname = firstName;
 		this.lastName = lastName;
 		this.email = email;
 	}
