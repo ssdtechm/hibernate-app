@@ -57,6 +57,7 @@ public class Student {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	System.out.println("ssd member");
 	}
 
 	public String getEmail() {
@@ -65,6 +66,7 @@ public class Student {
 
 	public void setEmail(String email) {
 		this.email = email;
+	System.out.println(" my user name is vamsipa1");
 	}
 
 	@Override
