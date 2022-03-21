@@ -57,6 +57,7 @@ public class Student {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+		System.out.println("ssd technologies");
 	}
 
 	public String getEmail() {
