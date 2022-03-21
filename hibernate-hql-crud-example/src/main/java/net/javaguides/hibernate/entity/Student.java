@@ -26,7 +26,7 @@ public class Student {
 	private String email;
 	
 	public Student() {
-		
+		System.out.print(false);
 	}
 
 	public Student(String firstName, String lastName, String email) {
